@@ -1,0 +1,22 @@
+.container {
+    margin:0 auto;
+    background-color: #96db7f;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    min-height: 300px;
+    max-width: 600px;
+    border:20px solid #BDC581;
+    
+}
+#messages{
+    background-color: #BDC581;
+    border: 3px solid #006266;
+    height: 100px;
+    max-width:600px;
+    color:#006266;
+    font-weight: bold;
+    padding-top: 20px;
+    font-size: 30px;
+    }
+    ul {text-align:left;}

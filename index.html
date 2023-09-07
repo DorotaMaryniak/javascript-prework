@@ -7,11 +7,21 @@
 </head>
 <body>
 	<div class="container">
+		<h2>Witaj w grze kamień, papier, nożyce</h2>
+		<ul>Wynik rundy może być następujący:
+
+			<li>remis – jeśli obaj gracze wybrali ten sam ruch,</li>
+			<li>wygrana gracza, który zagrał papier, jeśli drugi gracz zagrał kamień,</li>
+			<li>wygrana gracza, który zagrał kamień, jeśli drugi gracz zagrał nożyce,</li>
+			<li>wygrana gracza, który zagrał nożyce, jeśli drugi gracz zagrał papier.</li>
+		</ul>
+		<p>Wybierz ruch:</p>
 		<div id="buttons">
 			<button id="button-rock">Kamień</button>
 			<button id="button-paper">Papier</button>
 			<button id="button-scissors">Nożyce</button>
 		</div>
+		<p>Wynik gry:</p>
 		<div id="messages"></div>
 	</div>
 	<script src="js/functions.js"></script>
